@@ -38,11 +38,6 @@ internal class Program
         builder.Services.AddScoped<ICategoryRepository, CategoryRepository>();
         builder.Services.AddScoped(typeof(IRepository<>), typeof(Repository<>));
 
-        builder.Logging.AddProvider(new CustomLoggerProvider(new CustomLoggerProviderConfiguration
-        {
-            LogLevel = LogLevel.Information,
-        }    
-        ));
 
         var app = builder.Build();
 

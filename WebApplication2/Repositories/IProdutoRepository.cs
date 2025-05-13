@@ -13,8 +13,6 @@ namespace WebApplication2.Repositories
 
         Produto Update(Produto produto);
 
-        Produto Delete();
-        ActionResult<Produto> GetProdutosPorCateoria(Func<object, bool> value);
-        ActionResult<Produto> GetProdutosPorCateoria(int id);
+        Produto Delete(int id);
     }
 }

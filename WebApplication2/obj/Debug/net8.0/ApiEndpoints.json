@@ -78,9 +78,9 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "WebApplication2.Controllers.ProdutoController",
-    "Method": "Get",
-    "RelativePath": "api/Produto",
+    "ContainingType": "WebApplication2.Controllers.ProdutorController",
+    "Method": "GetAll",
+    "RelativePath": "api/Produtor",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -98,9 +98,9 @@
     ]
   },
   {
-    "ContainingType": "WebApplication2.Controllers.ProdutoController",
+    "ContainingType": "WebApplication2.Controllers.ProdutorController",
     "Method": "Post",
-    "RelativePath": "api/Produto",
+    "RelativePath": "api/Produtor",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
@@ -114,9 +114,9 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "WebApplication2.Controllers.ProdutoController",
+    "ContainingType": "WebApplication2.Controllers.ProdutorController",
     "Method": "Get",
-    "RelativePath": "api/Produto/{id}",
+    "RelativePath": "api/Produtor/{id}",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -140,9 +140,9 @@
     ]
   },
   {
-    "ContainingType": "WebApplication2.Controllers.ProdutoController",
+    "ContainingType": "WebApplication2.Controllers.ProdutorController",
     "Method": "Put",
-    "RelativePath": "api/Produto/{id}",
+    "RelativePath": "api/Produtor/{id}",
     "HttpMethod": "PUT",
     "IsController": true,
     "Order": 0,
@@ -161,9 +161,9 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "WebApplication2.Controllers.ProdutoController",
+    "ContainingType": "WebApplication2.Controllers.ProdutorController",
     "Method": "Delete",
-    "RelativePath": "api/Produto/{id}",
+    "RelativePath": "api/Produtor/{id}",
     "HttpMethod": "DELETE",
     "IsController": true,
     "Order": 0,
@@ -178,8 +178,8 @@
   },
   {
     "ContainingType": "WebApplication2.Controllers.CategoriaController",
-    "Method": "GetCategoriasProdutos",
-    "RelativePath": "produtos",
+    "Method": "Get",
+    "RelativePath": "Categorias",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,

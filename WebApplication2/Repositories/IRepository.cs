@@ -13,7 +13,5 @@ namespace WebApplication2.Repositories
         T? Update(T entity);
 
         T? Delete(T entity);
-        object Delete(int id);
-        object GetProdutos();
     }
 }

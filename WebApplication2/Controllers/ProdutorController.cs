@@ -9,41 +9,33 @@ namespace WebApplication2.Controllers;
 
 [Route("api/[controller]")]
 [ApiController]
-public class ProdutoController : ControllerBase
+public class ProdutorController : ControllerBase
 {
     private readonly IProdutoRepository _produtoRepository;
     private readonly IRepository<Produto> _repository;
 
-    public ProdutoController(IRepository<Categoria> repository,
-        IProdutoRepository produtoRepository)
+    public ProdutorController(IRepository<Produto> repository,IProdutoRepository produtoRepository)
     {
         _produtoRepository = produtoRepository;
-        _repository = (IRepository<Produto>?)repository;
+        _repository = repository;
     }
 
     [HttpGet]
-    public ActionResult<IEnumerable<Produto>> Get()
+    public ActionResult<IEnumerable<Produto>> GetAll()
     {
-        var Produtos = _repository.GetAll();
-        if (Produtos is null)
-        {
-            return NotFound();
-        }
-
-        return Produtos;
+        var produto = _repository.GetAll();
+        return Ok(produto);
     }
 
     [HttpGet("{id:int}")]
     public ActionResult<Produto> Get(int id)
     {
         var produto = _produtoRepository.Get(c=> c.CategoriaId == id);
-        if (produto is null)
+        if (produto == null)
         {
             return NotFound();
         }
-
         return produto;
-
     }
 
     [HttpPost]
@@ -67,7 +59,6 @@ public class ProdutoController : ControllerBase
         }
 
         var produtoAtualizado = _repository.Update(produto);
-
         return Ok(produtoAtualizado);
     }
 

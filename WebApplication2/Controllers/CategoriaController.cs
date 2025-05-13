@@ -19,19 +19,16 @@ namespace WebApplication2.Controllers
             _logger = logger;
         }
 
-        [HttpGet("produtos")]
+        [HttpGet("Categorias")]
         public ActionResult<IEnumerable<Categoria>> Get()
         {
-            var categorias =  _repository.GetAll();    
+            var categorias = _repository.GetAll();
             return Ok(categorias);
         }
 
         [HttpGet("{id:int}")]
         public ActionResult<int> GetPrimaryKey(int id)
         {
-
-            //throw new ArgumentException("Ocorreu um erro");
-
             var categoria = _repository.Get(c=> c.CategoriaId == id);
 
             if (categoria is null)
@@ -39,9 +36,8 @@ namespace WebApplication2.Controllers
                 return NotFound();
             }
 
-            return Ok(categoria.Id);
+            return Ok(categoria);
         }
-
 
         [HttpPost]
         public ActionResult Post(Categoria categoria)
@@ -55,12 +51,11 @@ namespace WebApplication2.Controllers
         {
             if (id != categoria.CategoriaId)
             {
-                return BadRequest();
+                return NotFound(); 
             }
 
-            _repository.Update(categoria);
-
-            return Ok(categoria);
+            var categoriaAtualizada = _repository.Update(categoria);
+            return Ok(categoriaAtualizada);
         }
 
         [HttpDelete("{id:int}")]
@@ -74,7 +69,6 @@ namespace WebApplication2.Controllers
             }
 
             var categoriaExcluida = _repository.Get(c => c.CategoriaId == id);
-
             return Ok(categoriaExcluida);
         }
     }

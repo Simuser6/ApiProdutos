@@ -112,3 +112,4 @@ C:\Users\lucas.sodatti\source\repos\WebApplication2\WebApplication2\bin\Debug\ne
 C:\Users\lucas.sodatti\source\repos\WebApplication2\WebApplication2\bin\Debug\net8.0\MySqlConnector.dll
 C:\Users\lucas.sodatti\source\repos\WebApplication2\WebApplication2\bin\Debug\net8.0\Pomelo.EntityFrameworkCore.MySql.dll
 C:\Users\lucas.sodatti\source\repos\WebApplication2\WebApplication2\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+C:\Users\lucas.sodatti\source\repos\WebApplication2\WebApplication2\obj\Debug\net8.0\WebApplication2.sourcelink.json

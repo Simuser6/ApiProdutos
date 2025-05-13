@@ -4,7 +4,7 @@
     "title": "API"
   },
   "paths": {
-    "/produtos": {
+    "/Categorias": {
       "get": {
         "tags": [
           "Categoria"
@@ -159,10 +159,10 @@
         }
       }
     },
-    "/api/Produto": {
+    "/api/Produtor": {
       "get": {
         "tags": [
-          "Produto"
+          "Produtor"
         ],
         "responses": {
           "200": {
@@ -198,7 +198,7 @@
       },
       "post": {
         "tags": [
-          "Produto"
+          "Produtor"
         ],
         "requestBody": {
           "content": {
@@ -226,10 +226,10 @@
         }
       }
     },
-    "/api/Produto/{id}": {
+    "/api/Produtor/{id}": {
       "get": {
         "tags": [
-          "Produto"
+          "Produtor"
         ],
         "parameters": [
           {
@@ -267,7 +267,7 @@
       },
       "put": {
         "tags": [
-          "Produto"
+          "Produtor"
         ],
         "parameters": [
           {
@@ -307,7 +307,7 @@
       },
       "delete": {
         "tags": [
-          "Produto"
+          "Produtor"
         ],
         "parameters": [
           {

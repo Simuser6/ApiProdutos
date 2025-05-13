@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Http.HttpResults;
+using Microsoft.AspNetCore.Mvc;
 using WebApplication2.Context;
 using WebApplication2.Models;
 
@@ -11,11 +12,6 @@ namespace WebApplication2.Repositories
         public ProdutoRepository(AppDbContext context) : base(context)
         { }
 
-        public Produto Delete()
-        {
-            throw new NotImplementedException();
-        }
-
         public IEnumerable<Produto> GetProduto()
         {
             throw new NotImplementedException();
@@ -26,12 +22,7 @@ namespace WebApplication2.Repositories
             throw new NotImplementedException();
         }
 
-        public ActionResult<Produto> GetProdutosPorCateoria(Func<object, bool> value)
-        {
-            throw new NotImplementedException();
-        }
-
-        public ActionResult<Produto> GetProdutosPorCateoria(int id)
+        Produto IProdutoRepository.Delete(int id)
         {
             throw new NotImplementedException();
         }

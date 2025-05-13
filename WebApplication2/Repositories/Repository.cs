@@ -47,16 +47,11 @@ namespace WebApplication2.Repositories
 
         public object Delete(int id)
         {
-            {
-                _context.Remove(id);
-                _context.SaveChanges();
-                return id;
-            }
-        }
-
-        public object GetProdutos()
-        {
-            throw new NotImplementedException();
+            
+             _context.Remove(id);
+             _context.SaveChanges();
+             return id;
+            
         }
     }
 }
