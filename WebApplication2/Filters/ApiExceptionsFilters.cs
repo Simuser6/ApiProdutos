@@ -1,26 +1,23 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Filters;
 
-namespace WebApplication2.Filters
+namespace WebApplication2.Filters;
+
+public class ApiExceptionFilter : IExceptionFilter
 {
-    public class ApiExceptionsFilters : IExceptionFilter
+    private readonly ILogger<ApiExceptionFilter> _logger;
+    public ApiExceptionFilter(ILogger<ApiExceptionFilter> logger)
+    {
+        _logger = logger;
+    }
+    public void OnException(ExceptionContext context)
     {
 
-        private readonly ILogger<ApiExceptionsFilters> logger;  
+        _logger.LogError(context.Exception, "Ocorreu um exceção não tratada: Status Code 500");
 
-        public ApiExceptionsFilters(ILogger<ApiExceptionsFilters> logger)
+        context.Result = new ObjectResult("Ocorreu um problema ao tratar a sua solicitação: Status Code 500")
         {
-            this.logger = logger;
-        }
-
-        public void OnException(ExceptionContext context)
-        {
-            this.logger.LogError(context.Exception, "Error 500");
-
-            context.Result = new ObjectResult("Ocorreu um Erro")
-            {
-                StatusCode = StatusCodes.Status500InternalServerError
-            };
-        }
+            StatusCode = StatusCodes.Status500InternalServerError,
+        };
     }
 }

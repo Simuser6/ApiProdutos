@@ -1,18 +1,9 @@
-﻿using Microsoft.AspNetCore.Mvc;
-using WebApplication2.Models;
+﻿using WebApplication2.Models;
+using WebApplication2.Repositories;
 
-namespace WebApplication2.Repositories
+namespace WebApplication2.Repositories;
+
+public interface IProdutoRepository : IRepository<Produto>
 {
-    public interface IProdutoRepository : IRepository<Produto>
-    {
-        IEnumerable<Produto> GetProduto();
-
-        Produto GetProduto(int Id);
-
-        Produto Create(Produto produto);
-
-        Produto Update(Produto produto);
-
-        Produto Delete(int id);
-    }
+    IEnumerable<Produto> GetProdutosPorCategoria(int id);
 }

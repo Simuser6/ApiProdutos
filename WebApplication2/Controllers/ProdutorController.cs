@@ -47,13 +47,13 @@ public class ProdutorController : ControllerBase
         var novoProduto = _repository.Create(produto);
 
         return CreatedAtAction("obterproduto",
-            new { id = produto.Id }, produto);
+            new { id = produto.ProdutoId}, produto);
     }
 
     [HttpPut("{id:int}")]
     public ActionResult Put(int id, Produto produto)
     {
-        if (id != produto.Id)
+        if (id != produto.ProdutoId)
         {
             return BadRequest();
         }
@@ -65,7 +65,7 @@ public class ProdutorController : ControllerBase
     [HttpDelete("{id:int}")]
     public ActionResult Delete(int id)
     {
-        var produto = _repository.Get(p => p.Id == id);
+        var produto = _repository.Get(p => p.ProdutoId == id);
         if(produto is null)
         {
             return NotFound();
