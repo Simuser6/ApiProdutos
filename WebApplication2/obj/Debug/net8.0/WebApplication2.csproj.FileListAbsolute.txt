@@ -21,12 +21,6 @@ C:\Users\lucas.sodatti\source\repos\WebApplication2\WebApplication2\obj\Debug\ne
 C:\Users\lucas.sodatti\source\repos\WebApplication2\WebApplication2\obj\Debug\net8.0\staticwebassets.build.json
 C:\Users\lucas.sodatti\source\repos\WebApplication2\WebApplication2\obj\Debug\net8.0\staticwebassets.development.json
 C:\Users\lucas.sodatti\source\repos\WebApplication2\WebApplication2\obj\Debug\net8.0\staticwebassets.build.endpoints.json
-C:\Users\lucas.sodatti\source\repos\WebApplication2\WebApplication2\obj\Debug\net8.0\staticwebassets\msbuild.WebApplication2.Microsoft.AspNetCore.StaticWebAssets.props
-C:\Users\lucas.sodatti\source\repos\WebApplication2\WebApplication2\obj\Debug\net8.0\staticwebassets\msbuild.WebApplication2.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
-C:\Users\lucas.sodatti\source\repos\WebApplication2\WebApplication2\obj\Debug\net8.0\staticwebassets\msbuild.build.WebApplication2.props
-C:\Users\lucas.sodatti\source\repos\WebApplication2\WebApplication2\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.WebApplication2.props
-C:\Users\lucas.sodatti\source\repos\WebApplication2\WebApplication2\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.WebApplication2.props
-C:\Users\lucas.sodatti\source\repos\WebApplication2\WebApplication2\obj\Debug\net8.0\staticwebassets.pack.json
 C:\Users\lucas.sodatti\source\repos\WebApplication2\WebApplication2\obj\Debug\net8.0\WebAppli.0DB3FC1A.Up2Date
 C:\Users\lucas.sodatti\source\repos\WebApplication2\WebApplication2\obj\Debug\net8.0\WebApplication2.dll
 C:\Users\lucas.sodatti\source\repos\WebApplication2\WebApplication2\obj\Debug\net8.0\refint\WebApplication2.dll
@@ -113,3 +107,5 @@ C:\Users\lucas.sodatti\source\repos\WebApplication2\WebApplication2\bin\Debug\ne
 C:\Users\lucas.sodatti\source\repos\WebApplication2\WebApplication2\bin\Debug\net8.0\Pomelo.EntityFrameworkCore.MySql.dll
 C:\Users\lucas.sodatti\source\repos\WebApplication2\WebApplication2\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
 C:\Users\lucas.sodatti\source\repos\WebApplication2\WebApplication2\obj\Debug\net8.0\WebApplication2.sourcelink.json
+C:\Users\lucas.sodatti\source\repos\WebApplication2\WebApplication2\obj\Debug\net8.0\staticwebassets.build.json.cache
+C:\Users\lucas.sodatti\source\repos\WebApplication2\WebApplication2\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.InMemory.dll

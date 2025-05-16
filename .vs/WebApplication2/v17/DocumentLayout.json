@@ -3,8 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\lucas.sodatti\\source\\repos\\WebApplication2\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{0BCFE0F7-ADA0-4DBB-9D08-CA1B65D716CF}|WebApplication2\\WebApplication2.csproj|c:\\users\\lucas.sodatti\\source\\repos\\webapplication2\\webapplication2\\logging\\customlogger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0BCFE0F7-ADA0-4DBB-9D08-CA1B65D716CF}|WebApplication2\\WebApplication2.csproj|solutionrelative:webapplication2\\logging\\customlogger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0BCFE0F7-ADA0-4DBB-9D08-CA1B65D716CF}|WebApplication2\\WebApplication2.csproj|c:\\users\\lucas.sodatti\\source\\repos\\webapplication2\\webapplication2\\controllers\\categoriascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0BCFE0F7-ADA0-4DBB-9D08-CA1B65D716CF}|WebApplication2\\WebApplication2.csproj|solutionrelative:webapplication2\\controllers\\categoriascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0BCFE0F7-ADA0-4DBB-9D08-CA1B65D716CF}|WebApplication2\\WebApplication2.csproj|c:\\users\\lucas.sodatti\\source\\repos\\webapplication2\\webapplication2\\dtos\\mappings\\categoriadtomappingsextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0BCFE0F7-ADA0-4DBB-9D08-CA1B65D716CF}|WebApplication2\\WebApplication2.csproj|solutionrelative:webapplication2\\dtos\\mappings\\categoriadtomappingsextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0BCFE0F7-ADA0-4DBB-9D08-CA1B65D716CF}|WebApplication2\\WebApplication2.csproj|c:\\users\\lucas.sodatti\\source\\repos\\webapplication2\\webapplication2\\dtos\\categoriadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0BCFE0F7-ADA0-4DBB-9D08-CA1B65D716CF}|WebApplication2\\WebApplication2.csproj|solutionrelative:webapplication2\\dtos\\categoriadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0BCFE0F7-ADA0-4DBB-9D08-CA1B65D716CF}|WebApplication2\\WebApplication2.csproj|c:\\users\\lucas.sodatti\\source\\repos\\webapplication2\\webapplication2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -15,20 +23,12 @@
       "RelativeMoniker": "D:0:0:{0BCFE0F7-ADA0-4DBB-9D08-CA1B65D716CF}|WebApplication2\\WebApplication2.csproj|solutionrelative:webapplication2\\controllers\\produtorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0BCFE0F7-ADA0-4DBB-9D08-CA1B65D716CF}|WebApplication2\\WebApplication2.csproj|c:\\users\\lucas.sodatti\\source\\repos\\webapplication2\\webapplication2\\repositories\\categoriarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0BCFE0F7-ADA0-4DBB-9D08-CA1B65D716CF}|WebApplication2\\WebApplication2.csproj|solutionrelative:webapplication2\\repositories\\categoriarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0BCFE0F7-ADA0-4DBB-9D08-CA1B65D716CF}|WebApplication2\\WebApplication2.csproj|c:\\users\\lucas.sodatti\\source\\repos\\webapplication2\\webapplication2\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{0BCFE0F7-ADA0-4DBB-9D08-CA1B65D716CF}|WebApplication2\\WebApplication2.csproj|solutionrelative:webapplication2\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0BCFE0F7-ADA0-4DBB-9D08-CA1B65D716CF}|WebApplication2\\WebApplication2.csproj|c:\\users\\lucas.sodatti\\source\\repos\\webapplication2\\webapplication2\\repositories\\produtorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0BCFE0F7-ADA0-4DBB-9D08-CA1B65D716CF}|WebApplication2\\WebApplication2.csproj|solutionrelative:webapplication2\\repositories\\produtorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0BCFE0F7-ADA0-4DBB-9D08-CA1B65D716CF}|WebApplication2\\WebApplication2.csproj|c:\\users\\lucas.sodatti\\source\\repos\\webapplication2\\webapplication2\\repositories\\unityofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0BCFE0F7-ADA0-4DBB-9D08-CA1B65D716CF}|WebApplication2\\WebApplication2.csproj|solutionrelative:webapplication2\\repositories\\unityofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0BCFE0F7-ADA0-4DBB-9D08-CA1B65D716CF}|WebApplication2\\WebApplication2.csproj|c:\\users\\lucas.sodatti\\source\\repos\\webapplication2\\webapplication2\\repositories\\iunityofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0BCFE0F7-ADA0-4DBB-9D08-CA1B65D716CF}|WebApplication2\\WebApplication2.csproj|solutionrelative:webapplication2\\repositories\\iunityofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0BCFE0F7-ADA0-4DBB-9D08-CA1B65D716CF}|WebApplication2\\WebApplication2.csproj|c:\\users\\lucas.sodatti\\source\\repos\\webapplication2\\webapplication2\\logging\\customlogger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0BCFE0F7-ADA0-4DBB-9D08-CA1B65D716CF}|WebApplication2\\WebApplication2.csproj|solutionrelative:webapplication2\\logging\\customlogger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,8 +38,34 @@
       "DocumentGroups": [
         {
           "DockedWidth": 1471,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 4,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CategoriaDTOMappingsExtensions.cs",
+              "DocumentMoniker": "C:\\Users\\lucas.sodatti\\source\\repos\\WebApplication2\\WebApplication2\\DTOs\\Mappings\\CategoriaDTOMappingsExtensions.cs",
+              "RelativeDocumentMoniker": "WebApplication2\\DTOs\\Mappings\\CategoriaDTOMappingsExtensions.cs",
+              "ToolTip": "C:\\Users\\lucas.sodatti\\source\\repos\\WebApplication2\\WebApplication2\\DTOs\\Mappings\\CategoriaDTOMappingsExtensions.cs",
+              "RelativeToolTip": "WebApplication2\\DTOs\\Mappings\\CategoriaDTOMappingsExtensions.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAcwB4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-16T13:28:24.953Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ProdutorController.cs",
+              "DocumentMoniker": "C:\\Users\\lucas.sodatti\\source\\repos\\WebApplication2\\WebApplication2\\Controllers\\ProdutorController.cs",
+              "RelativeDocumentMoniker": "WebApplication2\\Controllers\\ProdutorController.cs",
+              "ToolTip": "C:\\Users\\lucas.sodatti\\source\\repos\\WebApplication2\\WebApplication2\\Controllers\\ProdutorController.cs",
+              "RelativeToolTip": "WebApplication2\\Controllers\\ProdutorController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-16T13:01:30.213Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
@@ -51,88 +77,67 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "CustomLogger.cs",
-              "DocumentMoniker": "C:\\Users\\lucas.sodatti\\source\\repos\\WebApplication2\\WebApplication2\\Logging\\CustomLogger.cs",
-              "RelativeDocumentMoniker": "WebApplication2\\Logging\\CustomLogger.cs",
-              "ToolTip": "C:\\Users\\lucas.sodatti\\source\\repos\\WebApplication2\\WebApplication2\\Logging\\CustomLogger.cs",
-              "RelativeToolTip": "WebApplication2\\Logging\\CustomLogger.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACgAAAANAAAAAAAAAA==",
+              "Title": "CategoriasController.cs",
+              "DocumentMoniker": "C:\\Users\\lucas.sodatti\\source\\repos\\WebApplication2\\WebApplication2\\Controllers\\CategoriasController.cs",
+              "RelativeDocumentMoniker": "WebApplication2\\Controllers\\CategoriasController.cs",
+              "ToolTip": "C:\\Users\\lucas.sodatti\\source\\repos\\WebApplication2\\WebApplication2\\Controllers\\CategoriasController.cs",
+              "RelativeToolTip": "WebApplication2\\Controllers\\CategoriasController.cs",
+              "ViewState": "AgIAAEgAAAAAAAAAAAAIwF4AAAA3AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-15T14:10:18.619Z",
+              "WhenOpened": "2025-05-16T12:32:00.94Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\lucas.sodatti\\source\\repos\\WebApplication2\\WebApplication2\\Program.cs",
-              "RelativeDocumentMoniker": "WebApplication2\\Program.cs",
-              "ToolTip": "C:\\Users\\lucas.sodatti\\source\\repos\\WebApplication2\\WebApplication2\\Program.cs",
-              "RelativeToolTip": "WebApplication2\\Program.cs",
-              "ViewState": "AgIAACEAAAAAAAAAAAAcwDYAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "CategoriaDTO.cs",
+              "DocumentMoniker": "C:\\Users\\lucas.sodatti\\source\\repos\\WebApplication2\\WebApplication2\\DTOs\\CategoriaDTO.cs",
+              "RelativeDocumentMoniker": "WebApplication2\\DTOs\\CategoriaDTO.cs",
+              "ToolTip": "C:\\Users\\lucas.sodatti\\source\\repos\\WebApplication2\\WebApplication2\\DTOs\\CategoriaDTO.cs",
+              "RelativeToolTip": "WebApplication2\\DTOs\\CategoriaDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-15T13:54:12.079Z",
+              "WhenOpened": "2025-05-16T12:08:03.752Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "CategoriaRepository.cs",
-              "DocumentMoniker": "C:\\Users\\lucas.sodatti\\source\\repos\\WebApplication2\\WebApplication2\\Repositories\\CategoriaRepository.cs",
-              "RelativeDocumentMoniker": "WebApplication2\\Repositories\\CategoriaRepository.cs",
-              "ToolTip": "C:\\Users\\lucas.sodatti\\source\\repos\\WebApplication2\\WebApplication2\\Repositories\\CategoriaRepository.cs",
-              "RelativeToolTip": "WebApplication2\\Repositories\\CategoriaRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\lucas.sodatti\\source\\repos\\WebApplication2\\WebApplication2\\Program.cs",
+              "RelativeDocumentMoniker": "WebApplication2\\Program.cs",
+              "ToolTip": "C:\\Users\\lucas.sodatti\\source\\repos\\WebApplication2\\WebApplication2\\Program.cs",
+              "RelativeToolTip": "WebApplication2\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-15T13:51:31.717Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "ProdutoRepository.cs",
-              "DocumentMoniker": "C:\\Users\\lucas.sodatti\\source\\repos\\WebApplication2\\WebApplication2\\Repositories\\ProdutoRepository.cs",
-              "RelativeDocumentMoniker": "WebApplication2\\Repositories\\ProdutoRepository.cs",
-              "ToolTip": "C:\\Users\\lucas.sodatti\\source\\repos\\WebApplication2\\WebApplication2\\Repositories\\ProdutoRepository.cs",
-              "RelativeToolTip": "WebApplication2\\Repositories\\ProdutoRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-15T13:34:20.43Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "IUnityOfWork.cs",
-              "DocumentMoniker": "C:\\Users\\lucas.sodatti\\source\\repos\\WebApplication2\\WebApplication2\\Repositories\\IUnityOfWork.cs",
-              "RelativeDocumentMoniker": "WebApplication2\\Repositories\\IUnityOfWork.cs",
-              "ToolTip": "C:\\Users\\lucas.sodatti\\source\\repos\\WebApplication2\\WebApplication2\\Repositories\\IUnityOfWork.cs",
-              "RelativeToolTip": "WebApplication2\\Repositories\\IUnityOfWork.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-15T13:33:31.355Z"
+              "WhenOpened": "2025-05-16T11:50:13.336Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "UnityOfWork.cs",
-              "DocumentMoniker": "C:\\Users\\lucas.sodatti\\source\\repos\\WebApplication2\\WebApplication2\\Repositories\\UnityOfWork.cs",
-              "RelativeDocumentMoniker": "WebApplication2\\Repositories\\UnityOfWork.cs",
-              "ToolTip": "C:\\Users\\lucas.sodatti\\source\\repos\\WebApplication2\\WebApplication2\\Repositories\\UnityOfWork.cs",
-              "RelativeToolTip": "WebApplication2\\Repositories\\UnityOfWork.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAABLAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-15T13:32:19.461Z"
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\lucas.sodatti\\source\\repos\\WebApplication2\\WebApplication2\\appsettings.json",
+              "RelativeDocumentMoniker": "WebApplication2\\appsettings.json",
+              "ToolTip": "C:\\Users\\lucas.sodatti\\source\\repos\\WebApplication2\\WebApplication2\\appsettings.json",
+              "RelativeToolTip": "WebApplication2\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAABgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-05-16T10:51:42.391Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "ProdutorController.cs",
-              "DocumentMoniker": "C:\\Users\\lucas.sodatti\\source\\repos\\WebApplication2\\WebApplication2\\Controllers\\ProdutorController.cs",
-              "RelativeDocumentMoniker": "WebApplication2\\Controllers\\ProdutorController.cs",
-              "ToolTip": "C:\\Users\\lucas.sodatti\\source\\repos\\WebApplication2\\WebApplication2\\Controllers\\ProdutorController.cs",
-              "RelativeToolTip": "WebApplication2\\Controllers\\ProdutorController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAbAAAAAAAAAA==",
+              "DocumentIndex": 6,
+              "Title": "CustomLogger.cs",
+              "DocumentMoniker": "C:\\Users\\lucas.sodatti\\source\\repos\\WebApplication2\\WebApplication2\\Logging\\CustomLogger.cs",
+              "RelativeDocumentMoniker": "WebApplication2\\Logging\\CustomLogger.cs",
+              "ToolTip": "C:\\Users\\lucas.sodatti\\source\\repos\\WebApplication2\\WebApplication2\\Logging\\CustomLogger.cs",
+              "RelativeToolTip": "WebApplication2\\Logging\\CustomLogger.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAABXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-15T13:24:24.862Z"
+              "WhenOpened": "2025-05-16T10:46:44.39Z",
+              "EditorCaption": ""
             }
           ]
         }
